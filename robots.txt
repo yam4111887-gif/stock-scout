@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://yam4111887-gif.github.io/stock-scout/sitemap.xml

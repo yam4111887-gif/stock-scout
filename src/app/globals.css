@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", "Microsoft JhengHei", "PingFang TC",
+    "Noto Sans TC", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-stone-50 text-slate-800 antialiased;
+}
+
+/* Guide/article typography (server-rendered structured content) */
+.guide-content h2 {
+  @apply mt-10 mb-3 border-l-4 border-emerald-700 pl-3 text-xl font-bold text-slate-900;
+}
+
+.guide-content h3 {
+  @apply mt-6 mb-2 text-lg font-semibold text-slate-900;
+}
+
+.guide-content p {
+  @apply mb-4 leading-7.5 text-[0.97rem] text-slate-700;
+}
+
+.guide-content ul {
+  @apply mb-4 list-disc space-y-1.5 pl-6 text-[0.97rem] text-slate-700;
+}
+
+.guide-content ol {
+  @apply mb-4 list-decimal space-y-1.5 pl-6 text-[0.97rem] text-slate-700;
+}
+
+.guide-content a {
+  @apply font-medium text-emerald-700 underline decoration-emerald-300 underline-offset-2 hover:text-emerald-900;
+}
+
+.guide-content strong {
+  @apply font-semibold text-slate-900;
+}
+
+/* Data tables (supply-chain maps, comparisons) */
+.data-table {
+  @apply mb-5 w-full border-collapse overflow-hidden text-left text-sm;
+}
+
+.data-table th {
+  @apply border border-slate-200 bg-emerald-50 px-3 py-2 align-top font-semibold text-slate-800;
+}
+
+.data-table td {
+  @apply border border-slate-200 bg-white px-3 py-2 align-top text-slate-700;
+}
+
+.data-table a {
+  @apply font-medium text-emerald-700 underline decoration-emerald-300 underline-offset-2;
+}

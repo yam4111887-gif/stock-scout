@@ -1,0 +1,28 @@
+# 台股前哨站（Stock Scout）
+
+台股散戶的知識站：供應鏈地圖、運價指數指南、除權息教學、VIX 與主動式 ETF 入門，加上免費的到價哨兵工具。只解釋數據與產業結構，不提供任何個股買賣建議。
+網址：https://stock-scout.vercel.app/zh-TW
+
+## 知識指南
+
+- [CCL 與先進封裝供應鏈地圖](/zh-TW/guides/ccl-supply-chain)：玻纖布、銅箔、CCL、ABF 載板到封測，每個環節誰在做什麼
+- [磷化銦 InP 供應鏈地圖](/zh-TW/guides/inp-supply-chain)：從金屬銦、InP 基板、磊晶到光收發模組
+- [銅箔：CCL 供應鏈最上游](/zh-TW/guides/copper-foil)：STD/RTF/HVLP 等級怎麼分
+- [航運運價指數指南](/zh-TW/guides/freight-guide)：SCFI、Drewry WCI、BDI 是什麼、去哪看免費數據
+- [除權息完全指南](/zh-TW/guides/dividend-guide)：除權除息、填權息、課稅與補充保費
+- [VIX 恐慌指數入門](/zh-TW/guides/vix-guide)：怎麼算、怎麼讀、去哪查官方數據
+- [主動式 ETF 入門](/zh-TW/guides/etf-active)：跟被動式 ETF 的差別、費用與檢查清單
+
+## 工具
+
+- [到價哨兵](/zh-TW/alerts)：台股到價提醒（收盤價確認）。免費、免帳號，清單只存在瀏覽器 localStorage，資料來源為臺灣證券交易所 OpenAPI。
+
+## 其他
+
+- [關於本站](/zh-TW/about)
+- [隱私權政策](/zh-TW/privacy)
+- [免責聲明](/zh-TW/disclaimer)
+
+## 重要聲明
+
+本站內容僅供一般資訊與教育目的，不構成任何證券的買賣建議、投資推介或財務建議。資料以官方來源為準。
