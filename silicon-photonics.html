@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>矽光子是什麼？Silicon Photonics 供應鏈：CPO、光互連到 AI 資料中心【產業知識版】— 台股前哨站</title>
+<meta name="description" content="矽光子（Silicon Photonics）是什麼？跟磷化銦差在哪？為什麼 SEMICON Taiwan 與 AI 資料中心都在談 CPO 與矽光子？從光源、矽光晶片、封裝到模組的供應鏈地圖，純產業知識、非投資建議。">
+<meta name="keywords" content="矽光子, Silicon Photonics, 矽光子是什麼, CPO, 共封裝光學, 光互連, SEMICON Taiwan, AI 資料中心, 台積電 COUPE, 磷化銦">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://yam4111887-gif.github.io/stock-scout/silicon-photonics.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="矽光子 Silicon Photonics 供應鏈地圖 — 台股前哨站">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"矽光子是什麼？Silicon Photonics 供應鏈地圖","datePublished":"2026-08-31","dateModified":"2026-08-31","author":{"@type":"Organization","name":"台股前哨站"},"publisher":{"@type":"Organization","name":"台股前哨站"}}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-inner">
+    <a class="logo" href="index.html"><span class="mark">◭</span>台股前哨站</a>
+    <nav class="nav-links">
+      <a href="ccl-supply-chain.html">CCL 供應鏈地圖</a>
+      <a href="inp-supply-chain.html">磷化銦</a>
+      <a href="silicon-photonics.html">矽光子</a>
+      <a href="copper-foil.html">銅箔</a>
+      <a href="freight-guide.html">航運運價指南</a>
+      <a href="dividend-guide.html">除權息指南</a>
+      <a href="vix-guide.html">VIX</a>
+      <a href="etf-active.html">主動式 ETF</a>
+      <a href="about.html">關於</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page">
+  <h1>矽光子（Silicon Photonics）供應鏈地圖</h1>
+  <div class="page-date">知識整理日期：2026 年 8 月 ｜ 產業結構為長期知識，個別公司營運狀況請查閱公司年報與官方資訊</div>
+
+  <div class="notice">本文僅解釋產業結構與各環節的功能角色。文中提及的公司僅為結構說明舉例，<strong>絕非任何買賣建議</strong>。請以 <a href="https://mops.twse.com.tw" target="_blank" rel="noopener">公開資訊觀測站</a>與各公司官方文件為準。</div>
+
+  <h2>為什麼大家突然都在搜「矽光子」？</h2>
+  <p>SEMICON Taiwan 2026 國際半導體展登場，<strong>CPO（共封裝光學）與矽光子</strong>是本屆技術論壇的焦點議題，加上 AI 資料中心的互連需求爆發，「矽光子」相關搜尋明顯升溫。背後脈絡一句話：<strong>AI 叢集裡 GPU 之間要交換的資料量，已經逼得「機房內部傳輸」從電訊號全面轉向光訊號，而矽光子就是把光學元件用成熟半導體製程做進晶片的主流路線。</strong></p>
+
+  <h2>矽光子是什麼？（白話版）</h2>
+  <p>傳統光通訊元件是「一顆一顆分開做再組裝」；矽光子（Silicon Photonics，常簡稱 SiPh）則是<strong>把波導、調變器、檢光器等光學結構，直接用矽做進晶片裡</strong>——用做 CPU 的那套 CMOS 製程做光學元件。好處：體積小、良率高、量大時成本低，而且**光和電可以整合在同一個封裝裡**。</p>
+  <p>它有一個天生罩門：<strong>矽不會發光</strong>（矽是間接能隙材料）。所以雷射光源仍然要用三五族材料（主要是磷化銦 InP），以混合整合的方式黏到矽光晶片旁邊。這就是為什麼矽光子起飛時，磷化銦需求也跟著起飛——<strong>兩者是搭檔，不是對手</strong>（詳見我們的<a href="inp-supply-chain.html">磷化銦供應鏈地圖</a>）。</p>
+
+  <h2>供應鏈地圖：從光源到光互連</h2>
+  <table class="chain-table">
+    <tr><th>環節</th><th>做什麼</th><th>主要玩家（結構舉例）</th><th>與 AI 的關係</th></tr>
+    <tr><td><strong>雷射光源</strong></td><td>InP 雷射：矽光引擎裡負責「發光」的心臟</td><td>全新光電、IET-KY 等（台灣）＋國際光電大廠</td><td>每個光引擎都需要，用量隨 CPO 放大</td></tr>
+    <tr><td><strong>矽光子晶片設計與製造</strong></td><td>在矽晶圓上做出波導/調變器/檢光器的光學路徑</td><td>台積電（COUPE 矽光子製程布局）等先進代工＋國際設計大廠（Broadcom、Marvell、Intel 等）</td><td>800G→1.6T 光引擎的量產基礎</td></tr>
+    <tr><td><strong>封裝與整合（CPO）</strong></td><td>把光引擎跟交換晶片封裝在一起，縮短距離、降低功耗</td><td>日月光等封測廠＋晶圓代工先進封裝</td><td>CPO 是本屆 SEMICON 焦點，2026-2028 量產關鍵期</td></tr>
+    <tr><td><strong>光纖與被動元件</strong></td><td>光纖跳線、連接器、透鏡等光路零件</td><td>上詮、波若威等（台灣）</td><td>機房光互連密度提升，用量同步放大</td></tr>
+    <tr><td><strong>光收發模組</strong></td><td>把晶片組裝成可插拔模組（OSFP 等）</td><td>統新等（台灣）＋國際模組大廠</td><td>傳統可插拔與 CPO 並存過渡</td></tr>
+    <tr><td><strong>系統端</strong></td><td>資料中心交換器、AI 叢集互連</td><td>交換器與系統大廠</td><td>最終需求來源</td></tr>
+  </table>
+
+  <h2>三個常見疑問（白話版）</h2>
+  <h3>CPO 跟矽光子是同一件事嗎？</h3>
+  <p>不是。CPO（Co-Packaged Optics，共封裝光學）是<strong>組裝位置</strong>的改變——把光引擎從「插在交換器外面」移到「跟交換晶片封在同一個封裝裡」。矽光子則是<strong>做光學元件的技術路線</strong>。CPO 裡的光引擎多半用矽光子做，所以兩個詞常常一起出現。</p>
+  <h3>為什麼不用電的就好，要換成光？</h3>
+  <p>電訊號在高速率下有兩個天花板：距離越長衰減越快、功耗隨速率暴增。AI 叢集的 GPU 動輒幾萬顆互連，用電走不了多遠也吃不起那個電。光訊號低損耗、抗干擾，是唯一能同時解決「更快、更遠、更省電」的方案。</p>
+  <h3>矽光子會不會取代磷化銦？</h3>
+  <p>不會完全取代。矽擅長「傳導與調變光」，但「產生光」的雷射目前仍以 InP 為主力，兩者混合整合是業界共識路線。矽光子越普及，InP 雷射用量越大——這也是為什麼這兩個主題會一起上熱搜。</p>
+
+  <h2>延伸查證管道（官方與免費資源）</h2>
+  <ul>
+    <li><a href="https://mops.twse.com.tw" target="_blank" rel="noopener">公開資訊觀測站</a>：公司年報與法人說明會簡報（光學事業占比的第一手來源）</li>
+    <li>SEMICON Taiwan 官方議程與講題（矽光子/CPO 技術論壇的公開資料）</li>
+    <li>國際光通訊展（OFC）公開新聞：CPO 與 1.6T 進度的產業風向球</li>
+  </ul>
+
+  <h2>記住三個原則</h2>
+  <ol>
+    <li><strong>結構 ≠ 個股推薦</strong>：知道誰在哪個環節，不代表那家公司此刻值得買——技術路線勝負、良率、客戶認證都是變數。</li>
+    <li><strong>產業知識會過時</strong>：CPO 量產時程、混合整合方案變化很快，以公司官方文件與最新法說會為準。</li>
+    <li><strong>熱搜不等於進場點</strong>：展期話題上熱搜時，市場通常已反應一段時間——這頁的目的是讓你看懂結構，不是催你下單。</li>
+  </ol>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="logo" style="font-size:1rem"><span class="mark">◭</span>台股前哨站</div>
+    <nav class="footer-links">
+      <a href="ccl-supply-chain.html">CCL 供應鏈</a>
+      <a href="inp-supply-chain.html">磷化銦</a>
+      <a href="silicon-photonics.html">矽光子</a>
+      <a href="copper-foil.html">銅箔</a>
+      <a href="freight-guide.html">運價指南</a>
+      <a href="dividend-guide.html">除權息</a>
+      <a href="vix-guide.html">VIX</a>
+      <a href="etf-active.html">主動式 ETF</a>
+      <a href="about.html">關於</a>
+      <a href="disclaimer.html">免責聲明</a>
+    </nav>
+    <div class="footer-note">© 2026 台股前哨站 — 內容僅供教育參考，不構成投資建議。投資決策風險請自負。</div>
+  </div>
+</footer>
+</body>
+</html>
